@@ -3,7 +3,12 @@
 # Each entry should expose `name`, `path`, `server`, and `namespace` fields
 # which are referenced by the ApplicationSet template.
 
-- name: sample-dev
-  path: overlays/dev
-  server: https://kubernetes.default.svc
-  namespace: dev
+name: sample-dev
+path: overlays/dev
+server: https://kubernetes.default.svc
+namespace: dev
+
+envs:
+ - d
+ - t
+ - q
