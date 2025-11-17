@@ -5,5 +5,5 @@
 
 - name: sample-dev
   path: overlays/dev
-  #server: https://kubernetes.default.svc
+  server: https://kubernetes.default.svc
   namespace: dev
