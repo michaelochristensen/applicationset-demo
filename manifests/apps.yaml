@@ -1,3 +1,8 @@
+
+path: overlays/dev
+server: https://kubernetes.default.svc
+namespace: dev
+
 key:
   components:
     - name: component1
