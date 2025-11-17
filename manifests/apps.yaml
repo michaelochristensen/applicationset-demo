@@ -1,0 +1,14 @@
+---
+# List of applications for ApplicationSet git generator.
+# Each entry should expose `name`, `path`, `server`, and `namespace` fields
+# which are referenced by the ApplicationSet template.
+
+- name: sample-dev
+  path: overlays/dev
+  server: https://kubernetes.default.svc
+  namespace: dev
+
+- name: sample-staging
+  path: overlays/staging
+  server: https://staging.example.com
+  namespace: staging
