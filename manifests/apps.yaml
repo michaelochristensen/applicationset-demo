@@ -7,8 +7,3 @@
   path: overlays/dev
   #server: https://kubernetes.default.svc
   namespace: dev
-
-- name: sample-staging
-  path: overlays/staging
-  #server: https://staging.example.com
-  namespace: staging
